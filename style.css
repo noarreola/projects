@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* Navagation Bar Start*/
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(159,197,248);
+}
+.cities {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.burbank, .chicago, .dallas {
+    padding: 15px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+/*Navagation Bar End*/
+
+/*Container Start*/
+
+.container {
+    padding: 5px;
+}
+
+.container-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid black;
+    width: 800px;
+    margin: auto;
+    padding: 15px;    
+}
+
+.weather-row {
+    display: flex;
+    margin: auto 290px;
+    padding: 20px;
+}
+
+.today, .tomorrow, .friday, .saturday {
+    text-align: center;
+    justify-content:space-between;
+    background-color: lightgrey;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.weekdays, .temperatures {
+    padding: 15px;
+}
+
+.today-description {
+    padding: 15px;
+}
+
+.some-rain, .some-sun, .some-cloud {
+    height: 120px;
+    border-style: none;
+    border-radius: 55px;
+}
+.temperatures {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highs::after, .lows::after {
+    content: "°";
+} 
+
+.highs {
+    color: red;
+}
+
+.lows {
+    color: blue;
+}
+/* Container End*/
+
+/*Cookies Alert*/
+.cookie-header {
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.cookie-alert {
+    display: flex;
+    align-items: center;
+    position:  bottom fixed;
+    height: 120px;
+    width: 850px;   
+    margin: auto;
+    background-color: lightgray;
+    border: 3px solid black
+}
+
+.cookie-message {
+    display: flex;
+    flex-direction: column;
+    margin-top: -26px;
+    
+}
+
+.cookie-pic {
+    padding: 5px;
+    height: 80px;
+    width: 80px;
+}
+
+
+.accept {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto ;
+    padding: 5px;
+    box-shadow: 3px 3px;
+    background-color: rgb(159,197,248);
+}
+/*Cookies Alert End*/
